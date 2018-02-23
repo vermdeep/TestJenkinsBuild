@@ -6,6 +6,7 @@ pipeline {
        steps {
         echo 'Run Unit Tests'
         echo 'test 2'
+        echo 'test3'
       }
     }
 
