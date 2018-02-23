@@ -6,6 +6,10 @@ pipeline {
        steps {
         echo 'Run Unit Tests'
       }
+       steps {
+        echo 'Test2'
+      }
+
     }
 
     stage('Deploy ZDev') {
